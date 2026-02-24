@@ -1,0 +1,973 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="SmileAxis Orthodontics — Premium Invisalign, braces, and orthodontic care in Austin, TX. 3D digital planning, transparent pricing, 3 convenient locations." />
+  <link rel="canonical" href="https://www.smileaxis.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SmileAxis Orthodontics | Invisalign & Braces in Austin, TX" />
+  <meta property="og:description"
+    content="Premium orthodontic care in Austin. Invisalign, braces, and 3D digital planning at 3 convenient locations." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1200&q=80" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <title>SmileAxis Orthodontics | Invisalign & Braces in Austin, TX</title>
+  <link rel="dns-prefetch" href="https://images.unsplash.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print"
+    onload="this.media='all'" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  </noscript>
+</head>
+
+<body>
+  <!-- Inline: fires immediately, before defer scripts, beats browser scroll restore -->
+  <script>
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+    window.addEventListener('load', function () { window.scrollTo(0, 0); });
+  </script>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ── Header ── -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" aria-label="SmileAxis Orthodontics — Home">
+        <img src="assets/logo.svg" alt="SmileAxis Orthodontics" class="brand-logo" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-expanded="false">
+          <span class="sr-only">Toggle menu</span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="treatments.html">Treatments</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><button class="btn btn-sm" type="button" data-open-booking data-cta="nav_book">Book Free Consult</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ── HERO: Two-column (left = text, right = image) ── -->
+    <section class="hero" aria-label="SmileAxis Orthodontics hero">
+      <div class="hero-text">
+        <div class="hero-badges">
+          <span class="badge">🏅 AAO Board-Certified</span>
+          <span class="badge">📍 3 Austin Locations</span>
+          <span class="badge">✨ 0% Financing Available</span>
+        </div>
+        <h1>Your most confident smile<br><span class="hero-accent">starts right here.</span></h1>
+        <p class="hero-lead">
+          Specialist-led Invisalign and braces for adults, teens, and children.
+          Planned digitally in 3D. Delivered with a premium patient experience
+          at 3 convenient Austin-area clinics.
+        </p>
+        <div class="hero-trust">
+          <span class="stars">★★★★★</span>
+          <strong>4.9</strong>
+          <span>average rating</span>
+          <span class="hero-trust-sep">·</span>
+          <span>2,000+ happy smiles</span>
+        </div>
+        <div class="hero-actions">
+          <button class="btn btn-lg" type="button" data-open-booking data-cta="hero_primary">Book Free
+            Consultation</button>
+          <button class="btn btn-ghost btn-lg" type="button"
+            onclick="document.getElementById('booking').scrollIntoView({behavior:'smooth'})">See Booking
+            Options</button>
+        </div>
+      </div>
+
+      <div class="hero-image" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1400&q=85&auto=format&fit=crop"
+          alt="Confident woman with a bright smile after orthodontic treatment" loading="eager" fetchpriority="high"
+          width="700" height="900" />
+        <div class="hero-image-overlay"></div>
+      </div>
+
+      <!-- Trust strip across bottom -->
+      <div class="hero-trust-strip" aria-label="Trust signals">
+        <div class="hts-item"><span class="hts-icon">🎓</span>Board-Certified Orthodontist</div>
+        <div class="hts-sep"></div>
+        <div class="hts-item"><span class="hts-icon">📱</span>3D Digital Smile Preview</div>
+        <div class="hts-sep"></div>
+        <div class="hts-item"><span class="hts-icon">💳</span>0% Financing • Insurance Supported</div>
+        <div class="hts-sep"></div>
+        <div class="hts-item"><span class="hts-icon">📍</span>3 Austin-Area Clinics</div>
+      </div>
+    </section>
+
+    <!-- ── STATS BAR ── -->
+    <section class="stats-bar" aria-label="Practice statistics">
+      <div class="container stats-grid">
+        <div class="stat-card">
+          <span class="stat-val" data-count="2000" data-suffix="+">0+</span>
+          <span class="stat-lbl">Smiles Transformed</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-val" data-count="4.9" data-suffix="★">0★</span>
+          <span class="stat-lbl">Google Rating</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-val" data-count="15" data-suffix="+ yrs">0+ yrs</span>
+          <span class="stat-lbl">Serving Austin</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-val" data-count="98" data-suffix="%">0%</span>
+          <span class="stat-lbl">Patient Satisfaction</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COMPACT STEP-BY-STEP BOOKING ── -->
+    <section class="booking-section" id="booking" aria-label="Book your consultation">
+      <div class="container booking-layout">
+
+        <!-- Left: info -->
+        <div class="booking-info">
+          <p class="eyebrow">📅 Book Your Appointment</p>
+          <h2>Free consultation — no pressure, no surprises</h2>
+          <p>Your first visit includes a complimentary 3D iTero scan, a full orthodontic exam, and a personalized
+            digital smile plan — all at zero cost.</p>
+          <div class="booking-perks">
+            <div class="perk">
+              <span class="perk-icon">🔬</span>
+              <div>
+                <strong>Complimentary 3D Scan</strong>
+                <p>No messy impressions. See your smile transformation before treatment begins.</p>
+              </div>
+            </div>
+            <div class="perk">
+              <span class="perk-icon">⚡</span>
+              <div>
+                <strong>Same-Week Availability</strong>
+                <p>We keep appointments open so you can get started without a long wait.</p>
+              </div>
+            </div>
+            <div class="perk">
+              <span class="perk-icon">💰</span>
+              <div>
+                <strong>Transparent All-In Pricing</strong>
+                <p>Know your investment before you commit. No surprises, no hidden fees.</p>
+              </div>
+            </div>
+            <div class="perk">
+              <span class="perk-icon">📅</span>
+              <div>
+                <strong>Flexible Payment Plans</strong>
+                <p>Monthly plans starting from $149/month. 0% financing available.</p>
+              </div>
+            </div>
+          </div>
+          <p style="font-size:.9rem;color:var(--muted)">
+            Prefer to call? <a href="tel:+15125550123" style="color:var(--brand);font-weight:700">(512) 555-0123</a>
+            &nbsp;·&nbsp; <a href="sms:+15125550123" style="color:var(--brand);font-weight:700">Text us</a>
+          </p>
+        </div>
+
+        <!-- Right: compact step-by-step form -->
+        <div class="booking-panel" role="region" aria-label="Booking form">
+          <div class="bp-header">
+            <h3>Book Your Appointment</h3>
+            <p>3 quick steps · Takes about 60 seconds</p>
+          </div>
+
+          <!-- Progress dots -->
+          <div class="bp-progress" id="ilProgress" aria-label="Booking steps">
+            <div class="bp-step-dot active">
+              <div class="bp-step-num">1</div>
+              <span class="bp-step-label">Your Info</span>
+            </div>
+            <div class="bp-step-line"></div>
+            <div class="bp-step-dot">
+              <div class="bp-step-num">2</div>
+              <span class="bp-step-label">Treatment</span>
+            </div>
+            <div class="bp-step-line"></div>
+            <div class="bp-step-dot">
+              <div class="bp-step-num">3</div>
+              <span class="bp-step-label">Date & Time</span>
+            </div>
+          </div>
+
+          <form id="bookingForm" novalidate>
+            <!-- Step 1: personal details -->
+            <div class="bp-body">
+              <div class="bp-step-panel" data-step="1">
+                <div class="two-up">
+                  <div class="fgroup">
+                    <label for="il_first">First name</label>
+                    <input id="il_first" name="firstName" autocomplete="given-name" placeholder="Sarah" required />
+                  </div>
+                  <div class="fgroup">
+                    <label for="il_last">Last name</label>
+                    <input id="il_last" name="lastName" autocomplete="family-name" placeholder="Johnson" required />
+                  </div>
+                </div>
+                <div class="fgroup">
+                  <label for="il_email">Email address</label>
+                  <input id="il_email" name="email" type="email" placeholder="sarah@example.com" required />
+                </div>
+                <div class="fgroup">
+                  <label for="il_phone">Phone number</label>
+                  <input id="il_phone" name="phone" inputmode="tel" placeholder="(512) 555-0123" required />
+                </div>
+              </div>
+
+              <!-- Step 2: treatment -->
+              <div class="bp-step-panel" data-step="2" hidden>
+                <div class="fgroup">
+                  <label for="il_interest">I'm interested in</label>
+                  <select id="il_interest" name="interest" required>
+                    <option value="" disabled selected>Select treatment…</option>
+                    <option>Invisalign® Clear Aligners</option>
+                    <option>Traditional Braces</option>
+                    <option>Ceramic Braces</option>
+                    <option>Teen Orthodontics</option>
+                    <option>Children (Age 7+)</option>
+                    <option>Not sure — recommend for me</option>
+                  </select>
+                </div>
+                <div class="fgroup">
+                  <label for="il_location">Preferred location</label>
+                  <select id="il_location" name="location" required>
+                    <option value="" disabled selected>Choose clinic…</option>
+                    <option>Central Austin</option>
+                    <option>South Lamar</option>
+                    <option>Round Rock</option>
+                  </select>
+                </div>
+                <div class="fgroup">
+                  <label for="il_insurance">Insurance provider</label>
+                  <select id="il_insurance" name="insurance">
+                    <option value="No insurance / Self-pay" selected>No insurance / Self-pay</option>
+                    <option>Aetna</option>
+                    <option>BlueCross BlueShield</option>
+                    <option>Cigna</option>
+                    <option>Delta Dental</option>
+                    <option>MetLife</option>
+                    <option>United Healthcare</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Step 3: calendar + time -->
+              <div class="bp-step-panel" data-step="3" hidden>
+                <p style="color:var(--muted);font-size:.88rem;margin-bottom:.6rem">
+                  Select a date, then choose your preferred time.
+                </p>
+                <div id="inlineCalendar" style="border:1.5px solid var(--border);border-radius:14px;overflow:hidden;">
+                </div>
+                <div id="inlineTimeSection" hidden style="margin-top:.85rem">
+                  <p id="inlineDateLabel"
+                    style="font-size:.85rem;font-weight:600;color:var(--muted);margin-bottom:.45rem"></p>
+                  <div id="inlineTimeGrid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:.4rem;"></div>
+                </div>
+                <input type="hidden" name="appointmentDate" id="il_date" />
+                <input type="hidden" name="appointmentTime" id="il_time" />
+              </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="bp-footer">
+              <!-- Step 1 nav -->
+              <div id="ilNav1">
+                <button class="btn btn-block" type="button" data-next="2" data-cta="il_step1">
+                  Continue to Treatment →
+                </button>
+                <p style="text-align:center;font-size:.82rem;color:var(--muted);margin-top:.5rem">
+                  🔒 Your info is secure and never shared.
+                </p>
+              </div>
+              <!-- Step 2 nav -->
+              <div id="ilNav2" hidden>
+                <div class="bp-footer-row">
+                  <button class="btn btn-ghost" type="button" data-back="1">← Back</button>
+                  <button class="btn" type="button" data-next="3" data-cta="il_step2">Pick Date & Time →</button>
+                </div>
+              </div>
+              <!-- Step 3 nav -->
+              <div id="ilNav3" hidden>
+                <div class="bp-footer-row">
+                  <button class="btn btn-ghost" type="button" data-back="2">← Back</button>
+                  <button class="btn" id="ilSubmit" type="button" disabled data-cta="il_submit">Confirm Booking
+                    ✓</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── TREATMENTS ── -->
+    <section class="section" id="treatments" aria-label="Treatment options">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">🦷 Our Treatments</p>
+          <h2>Care for every smile, every stage of life</h2>
+          <p>Specialist-led Invisalign and braces for adults, teens, and children — planned digitally, delivered with a
+            premium patient experience at every visit.</p>
+        </div>
+
+        <div class="treatments-grid">
+
+          <!-- Invisalign -->
+          <article class="treatment-card">
+            <div class="treatment-img-wrap">
+              <img class="treatment-img"
+                src="assets/my%20images/home-Our%20Treatments-Invisalign%C2%AE%20Clear%20Aligners.jpg"
+                alt="Invisalign® Clear Aligners treatment" loading="lazy" decoding="async" />
+              <span class="treatment-badge">Most Popular</span>
+            </div>
+            <div class="treatment-body">
+              <h3>Invisalign® Clear Aligners</h3>
+              <p>Nearly invisible removable aligners precisely planned using 3D digital technology. See your full smile
+                timeline before treatment begins.</p>
+              <ul class="treat-list">
+                <li>No brackets or wires to irritate</li>
+                <li>Remove to eat, drink, and brush</li>
+                <li>Treatment in as little as 6 months</li>
+                <li>Digital SmileView preview included</li>
+              </ul>
+              <div class="treat-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-interest="Invisalign® Clear Aligners"
+                  data-cta="treat_invisalign">Book Consult</button>
+                <a class="tile-link" href="treatments.html">Full details →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Traditional Braces -->
+          <article class="treatment-card">
+            <div class="treatment-img-wrap">
+              <img class="treatment-img" src="assets/my%20images/home-Our%20Treatments-teeth%20orthodontics.jpg"
+                alt="Traditional teeth orthodontics braces" loading="lazy" decoding="async" />
+            </div>
+            <div class="treatment-body">
+              <h3>Traditional Braces</h3>
+              <p>The most reliable option for complex bite corrections. Modern low-profile brackets and heat-activated
+                wires make treatment more comfortable than ever.</p>
+              <ul class="treat-list">
+                <li>Best for complex alignment cases</li>
+                <li>Heat-activated NiTi archwires</li>
+                <li>Low-profile comfort brackets</li>
+                <li>Available in metal or ceramic</li>
+              </ul>
+              <div class="treat-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-interest="Traditional Braces"
+                  data-cta="treat_braces">Book Consult</button>
+                <a class="tile-link" href="treatments.html">Full details →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Teen Orthodontics -->
+          <article class="treatment-card">
+            <div class="treatment-img-wrap">
+              <img class="treatment-img"
+                src="https://images.unsplash.com/photo-1764724783027-2177e3ff7f73?w=600&q=80&auto=format&fit=crop"
+                alt="Happy smiling teenager with braces — teen orthodontics" loading="lazy" decoding="async" />
+            </div>
+            <div class="treatment-body">
+              <h3>Teen Orthodontics</h3>
+              <p>Teen-specific Invisalign and ceramic braces designed around school schedules, sports, and social
+                confidence. Blue compliance indicators built in.</p>
+              <ul class="treat-list">
+                <li>Invisalign Teen with compliance indicators</li>
+                <li>Ceramic options — nearly invisible</li>
+                <li>Accommodates school sports schedules</li>
+                <li>Extra aligners included for teens</li>
+              </ul>
+              <div class="treat-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-interest="Teen Orthodontics"
+                  data-cta="treat_teen">Book for My Teen</button>
+                <a class="tile-link" href="treatments.html">Full details →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Children -->
+          <article class="treatment-card">
+            <div class="treatment-img-wrap">
+              <img class="treatment-img"
+                src="assets/my%20images/home-our%20treatments-Early%20Childhood%20Evaluation%20%28Age%207%2B%29.jpg"
+                alt="Early Childhood Evaluation for children Age 7+" loading="lazy" decoding="async" />
+            </div>
+            <div class="treatment-body">
+              <h3>Early Childhood Evaluation (Age 7+)</h3>
+              <p>The AAO recommends a first orthodontic screening by age 7. Early intervention can guide jaw
+                development, reduce crowding, and simplify future treatment.</p>
+              <ul class="treat-list">
+                <li>Complimentary first evaluation</li>
+                <li>Space maintainers when needed</li>
+                <li>Phase 1 interceptive orthodontics</li>
+                <li>Parent education & growth monitoring</li>
+              </ul>
+              <div class="treat-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-interest="Children (Age 7+)"
+                  data-cta="treat_children">Schedule Evaluation</button>
+                <a class="tile-link" href="treatments.html">Learn more →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Adult Orthodontics -->
+          <article class="treatment-card">
+            <div class="treatment-img-wrap">
+              <img class="treatment-img" src="assets/my%20images/home-ourtreatments-adult%20orthodontics.jpg"
+                alt="Adult orthodontics treatment" loading="lazy" decoding="async" />
+            </div>
+            <div class="treatment-body">
+              <h3>Adult Orthodontics</h3>
+              <p>Over 1 in 4 orthodontic patients are adults. We offer flexible appointment times, remote monitoring
+                through our app, and discreet options that fit your lifestyle.</p>
+              <ul class="treat-list">
+                <li>Evening & Saturday appointments</li>
+                <li>Remote check-ins via mobile app</li>
+                <li>Discreet clear aligner options</li>
+                <li>Flexible financing from $149/mo</li>
+              </ul>
+              <div class="treat-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-interest="Not sure — recommend for me"
+                  data-cta="treat_adults">Start My Journey</button>
+                <a class="tile-link" href="treatments.html">Learn more →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Emergency -->
+          <article class="treatment-card treatment-card-emergency">
+            <div class="treatment-body">
+              <div class="emergency-icon">🚨</div>
+              <h3>Orthodontic Emergencies</h3>
+              <p>Poking wire? Broken bracket? Lost aligner? We reserve time every day for urgent orthodontic issues.
+                Same-day care whenever possible.</p>
+              <ul class="treat-list">
+                <li>Available during all office hours</li>
+                <li>Call for same-day slot</li>
+                <li>All 3 locations staffed</li>
+              </ul>
+              <div class="treat-actions">
+                <a class="btn btn-sm" href="tel:+15125550123">Call Now — (512) 555-0123</a>
+                <a class="tile-link" href="locations.html">Find clinic →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="cta-strip">
+          <div>
+            <strong>Not sure which treatment is right for you?</strong>
+            <span class="muted">Our orthodontist will recommend the best option after a complimentary scan and exam — no
+              obligation.</span>
+          </div>
+          <button class="btn" type="button" data-open-booking data-cta="treatments_reco">Get a Free
+            Recommendation</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CLINIC SHOWCASE ── -->
+    <section class="section section-alt" aria-label="Our clinics">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">🏥 Our Clinics</p>
+          <h2>A premium orthodontic experience — across all 3 locations</h2>
+          <p>State-of-the-art technology, warm and welcoming spaces, and a team that genuinely cares about your result
+            at every visit.</p>
+        </div>
+
+        <div class="clinic-mosaic">
+          <div class="clinic-mosaic-main">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=900&q=80&auto=format&fit=crop"
+              alt="Modern orthodontic clinic reception area with warm lighting and welcoming design" loading="lazy"
+              decoding="async" />
+            <div class="mosaic-caption">Our Central Austin clinic — redesigned in 2023</div>
+          </div>
+          <div class="clinic-mosaic-sm">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&auto=format&fit=crop"
+              alt="3D dental scanner being used on a patient" loading="lazy" decoding="async" />
+          </div>
+          <div class="clinic-mosaic-sm">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&q=80&auto=format&fit=crop"
+              alt="Orthodontist consultation with patient reviewing digital X-ray" loading="lazy" decoding="async" />
+          </div>
+        </div>
+
+        <div class="clinic-features">
+          <div class="clinic-feat">
+            <span class="cf-icon">🔬</span>
+            <strong>iTero Element 5D Scanner</strong>
+            <p>No messy impressions. Comfortable 60-second scan with immediate digital model.</p>
+          </div>
+          <div class="clinic-feat">
+            <span class="cf-icon">📱</span>
+            <strong>Remote Monitoring App</strong>
+            <p>Check in virtually between appointments. Fewer in-office visits needed.</p>
+          </div>
+          <div class="clinic-feat">
+            <span class="cf-icon">🛋️</span>
+            <strong>Comfort-First Design</strong>
+            <p>Noise-reducing rooms, private bays, warm lighting, and complimentary refreshments.</p>
+          </div>
+          <div class="clinic-feat">
+            <span class="cf-icon">♿</span>
+            <strong>Fully Accessible</strong>
+            <p>Wheelchair-accessible entry, parking, and treatment rooms at all 3 locations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS ── -->
+    <section class="section" aria-label="Our process">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">🗺️ Our Process</p>
+          <h2>Simple, clear, and predictable from day one</h2>
+          <p>We reduce uncertainty by showing you the plan, the timeline, and the investment up front — so you can start
+            with confidence.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step">
+            <div class="ps-num">01</div>
+            <div class="ps-content">
+              <h3>Free 3D Scan + Consultation</h3>
+              <p>Your complimentary first visit includes a fast, comfortable 3D iTero scan and a specialist-led
+                evaluation. No X-ray required. No obligation.</p>
+              <ul class="ps-list">
+                <li>Takes 45–60 minutes total</li>
+                <li>See a digital preview of your smile during the visit</li>
+                <li>Walk out with a clear treatment recommendation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="ps-num">02</div>
+            <div class="ps-content">
+              <h3>Review Your Personalized Smile Plan</h3>
+              <p>We walk you through your digital treatment plan — showing you projected tooth movement, timing, and
+                all-in cost — before you commit to anything.</p>
+              <ul class="ps-list">
+                <li>See your end result before you start</li>
+                <li>Invisalign or braces — we recommend what's best clinically</li>
+                <li>Review financing and insurance coverage together</li>
+              </ul>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="ps-num">03</div>
+            <div class="ps-content">
+              <h3>Start Treatment & Stay Supported</h3>
+              <p>Once you're ready, we schedule your first treatment visit. Check-ins are streamlined, remote monitoring
+                keeps you on track, and our team is always reachable.</p>
+              <ul class="ps-list">
+                <li>Appointments every 6–10 weeks on average</li>
+                <li>Remote check-ins via app between visits</li>
+                <li>Retention plan included after treatment ends</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <div>
+            <strong>Ready to see your smile plan?</strong>
+            <div class="muted">Book a free consultation and we'll map your best path — Invisalign or braces — in one
+              visit.</div>
+          </div>
+          <button class="btn" type="button" data-open-booking data-cta="process_cta">Book Free Consult</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ── -->
+    <section class="section section-alt" aria-label="Patient reviews">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">⭐ Patient Reviews</p>
+          <h2>Trusted by Austin patients and their families</h2>
+          <p>Real experiences from our Invisalign and braces patients across all three Austin-area clinics.</p>
+        </div>
+
+        <div class="reviews-carousel" aria-label="Patient testimonials carousel">
+          <div id="reviewTrack" class="carousel-track">
+            <div class="quote">
+              <div class="quote-top">
+                <img class="quote-avatar"
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80&auto=format&fit=crop&face"
+                  alt="Alex M." loading="lazy" decoding="async" />
+                <div>
+                  <div class="quote-name">Alex M.</div>
+                  <div class="quote-meta">Invisalign · Central Austin</div>
+                  <div class="quote-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>"From the 3D scan to the final retainer check, everything was organized and easy. I always knew what
+                was next and never felt rushed. My smile looks amazing."</p>
+            </div>
+            <div class="quote">
+              <div class="quote-top">
+                <img class="quote-avatar"
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80&auto=format&fit=crop&face"
+                  alt="Priya S." loading="lazy" decoding="async" />
+                <div>
+                  <div class="quote-name">Priya S.</div>
+                  <div class="quote-meta">Teen Braces · South Lamar</div>
+                  <div class="quote-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>"They explained everything clearly to both me and my parents. Visits were quick, and the team was
+                genuinely kind. My confidence went through the roof!"</p>
+            </div>
+            <div class="quote">
+              <div class="quote-top">
+                <img class="quote-avatar"
+                  src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&q=80&auto=format&fit=crop&face"
+                  alt="Marcus T." loading="lazy" decoding="async" />
+                <div>
+                  <div class="quote-name">Marcus T.</div>
+                  <div class="quote-meta">Adult Invisalign · Round Rock</div>
+                  <div class="quote-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>"As an adult, I was hesitant about braces. SmileAxis made the whole process discreet and professional.
+                The remote monitoring meant fewer office visits — perfect for my schedule."</p>
+            </div>
+            <div class="quote">
+              <div class="quote-top">
+                <img class="quote-avatar"
+                  src="https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?w=100&q=80&auto=format&fit=crop&face"
+                  alt="The Nguyen Family" loading="lazy" decoding="async" />
+                <div>
+                  <div class="quote-name">The Nguyen Family</div>
+                  <div class="quote-meta">Phase 1 Ortho · Round Rock</div>
+                  <div class="quote-stars">★★★★★</div>
+                </div>
+              </div>
+              <p>"Our daughter was nervous at first, but the entire team put her at ease. They took their time
+                explaining everything. We never felt like just another appointment."</p>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn" id="prevReview" aria-label="Previous review">‹</button>
+            <button class="carousel-btn" id="nextReview" aria-label="Next review">›</button>
+          </div>
+        </div>
+
+        <div class="callout" style="margin-top:2rem">
+          <div>
+            <strong>Join 2,000+ Austin smiles</strong>
+            <div class="muted">Book a free consultation and see what your smile can look like.</div>
+          </div>
+          <a class="btn" href="reviews.html">Read All Reviews</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FINANCING ── -->
+    <section class="section" aria-label="Financing">
+      <div class="container fin-layout">
+        <div class="fin-content">
+          <p class="eyebrow">💳 Financing</p>
+          <h2>Premium care with flexible payment options</h2>
+          <p class="fin-desc">We'll show the total investment up front — then help you choose a plan that fits
+            comfortably within your budget. No surprises, ever.</p>
+          <div class="fin-options">
+            <div class="fin-opt">
+              <span class="fin-opt-icon">✅</span>
+              <div>
+                <strong>$0 Down, 0% Interest Options</strong>
+                <p>Qualified patients can start treatment with zero down and 0% financing on approved credit.</p>
+              </div>
+            </div>
+            <div class="fin-opt">
+              <span class="fin-opt-icon">💵</span>
+              <div>
+                <strong>Monthly Plans from $149/month</strong>
+                <p>Break your investment into manageable monthly payments from your very first appointment.</p>
+              </div>
+            </div>
+            <div class="fin-opt">
+              <span class="fin-opt-icon">🏥</span>
+              <div>
+                <strong>Insurance Benefit Support</strong>
+                <p>We'll verify your orthodontic benefits and maximize your insurance coverage before you start.</p>
+              </div>
+            </div>
+            <div class="fin-opt">
+              <span class="fin-opt-icon">🔒</span>
+              <div>
+                <strong>All-In Transparent Pricing</strong>
+                <p>Your quote covers everything: records, aligners/brackets, check-ups, retainers, and retention.</p>
+              </div>
+            </div>
+          </div>
+          <div class="fin-ctas">
+            <button class="btn" type="button" data-open-booking data-cta="fin_cta">Get My Estimate</button>
+            <a class="btn btn-ghost" href="financing.html">Payment Options</a>
+          </div>
+        </div>
+        <div class="fin-img-col">
+          <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=700&q=80&auto=format&fit=crop"
+            alt="Couple reviewing financial paperwork for orthodontic treatment" loading="lazy" decoding="async" />
+          <div class="fin-badge">
+            <span class="fin-badge-num">$0</span>
+            <span>Down available on<br>approved plans</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── LOCATIONS ── -->
+    <section class="section section-alt" id="locations" aria-label="Our locations">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">📍 Our Locations</p>
+          <h2>Three Austin-area clinics. One premium standard.</h2>
+          <p>Choose the clinic that works best for your commute. Same clinical quality and patient experience across all
+            locations.</p>
+        </div>
+
+        <div class="loc-grid">
+          <div class="loc-card">
+            <img class="loc-img"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80&auto=format&fit=crop"
+              alt="Welcoming medical clinic reception desk for Central Austin location" loading="lazy"
+              decoding="async" />
+            <div class="loc-body">
+              <h3>Central Austin</h3>
+              <p class="loc-addr">📍 123 Congress Ave, Suite 200 · Austin, TX 78701</p>
+              <div class="loc-meta">
+                <span>🕒 Mon–Thu: 8:00 AM – 6:00 PM</span>
+                <span>🕒 Fri: 8:00 AM – 3:00 PM</span>
+                <span>🚗 Validated parking included</span>
+              </div>
+              <div class="loc-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-location="Central Austin"
+                  data-cta="loc_central">Book Here</button>
+                <a class="btn btn-ghost btn-sm" href="locations.html">Directions →</a>
+              </div>
+            </div>
+          </div>
+          <div class="loc-card">
+            <img class="loc-img"
+              src="https://images.unsplash.com/photo-1659439183320-a81dda3bb692?w=600&q=80&auto=format&fit=crop"
+              alt="Contemporary office building exterior for South Lamar clinic" loading="lazy" decoding="async" />
+            <div class="loc-body">
+              <h3>South Lamar</h3>
+              <p class="loc-addr">📍 2401 S Lamar Blvd, Suite 105 · Austin, TX 78704</p>
+              <div class="loc-meta">
+                <span>🕒 Mon–Fri: 8:00 AM – 6:00 PM</span>
+                <span>🕒 Sat: 9:00 AM – 1:00 PM</span>
+                <span>🚗 Free surface parking</span>
+              </div>
+              <div class="loc-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-location="South Lamar"
+                  data-cta="loc_lamar">Book Here</button>
+                <a class="btn btn-ghost btn-sm" href="locations.html">Directions →</a>
+              </div>
+            </div>
+          </div>
+          <div class="loc-card">
+            <img class="loc-img"
+              src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80&auto=format&fit=crop"
+              alt="Suburban office building with parking for Round Rock clinic" loading="lazy" decoding="async" />
+            <div class="loc-body">
+              <h3>Round Rock</h3>
+              <p class="loc-addr">📍 3600 University Blvd, Suite 110 · Round Rock, TX 78665</p>
+              <div class="loc-meta">
+                <span>🕒 Mon–Thu: 8:00 AM – 5:30 PM</span>
+                <span>🕒 Sat: 9:00 AM – 12:00 PM</span>
+                <span>🚗 Ample free parking</span>
+              </div>
+              <div class="loc-actions">
+                <button class="btn btn-sm" type="button" data-open-booking data-location="Round Rock"
+                  data-cta="loc_rr">Book Here</button>
+                <a class="btn btn-ghost btn-sm" href="locations.html">Directions →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FAQ ── -->
+    <section class="section" aria-label="Frequently asked questions">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">❓ FAQ</p>
+          <h2>Common questions answered</h2>
+          <p>Everything you need to know before your first visit.</p>
+        </div>
+        <div class="faq">
+          <details class="faq-item">
+            <summary>How much does orthodontic treatment cost?</summary>
+            <div class="faq-body">
+              <p>Treatment costs vary by case complexity and type. Invisalign typically ranges from $3,500–$7,500;
+                braces from $3,000–$6,500. Your exact, all-in quote is provided at your free consultation after a 3D
+                scan. There are no hidden fees.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Do you accept dental insurance?</summary>
+            <div class="faq-body">
+              <p>Yes. Most orthodontic insurance plans have a lifetime orthodontic benefit ($1,000–$3,000+). We'll
+                verify your benefits before your first visit and help you maximize coverage. We bill insurance directly
+                so you only pay your share.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What's the difference between Invisalign and braces?</summary>
+            <div class="faq-body">
+              <p>Invisalign uses removable clear aligners you swap every 1–2 weeks. Braces use fixed brackets and wires
+                adjusted at appointments. Both achieve excellent results — the right choice depends on your bite
+                complexity, lifestyle, and preference. We recommend after your scan.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How long does treatment take?</summary>
+            <div class="faq-body">
+              <p>Mild cases: 6–12 months. Moderate: 12–18 months. Complex: 18–30 months. Your precise timeline is
+                previewed digitally before you start. Most patients see visible improvement within the first 2–3 months.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What age should my child first see an orthodontist?</summary>
+            <div class="faq-body">
+              <p>The American Association of Orthodontists recommends an evaluation by age 7. Early screening allows us
+                to monitor development and intervene when it can simplify or shorten future treatment — often avoiding
+                tooth extractions.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Is the initial consultation really free?</summary>
+            <div class="faq-body">
+              <p>Yes — 100% complimentary. Your first visit includes a full orthodontic exam, a 3D iTero scan ($350
+                value), and a personalized smile plan with timing and cost. No obligation and no pressure.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FINAL CTA ── -->
+    <section class="final-cta" aria-label="Book consultation">
+      <div class="final-cta-bg">
+        <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=1400&q=80&auto=format&fit=crop"
+          alt="Smiling patient excited about their new smile" loading="lazy" decoding="async" />
+        <div class="final-cta-overlay"></div>
+      </div>
+      <div class="final-cta-inner">
+        <h2>Your best smile is one appointment away.</h2>
+        <p>Book your free consultation today. Get a 3D scan, a personalized smile plan, and a clear all-in price — all
+          at no cost, no pressure.</p>
+        <div class="final-cta-actions">
+          <button class="btn btn-white btn-lg" type="button" data-open-booking data-cta="final_cta">Book Free
+            Consultation</button>
+          <a class="btn btn-outline-white btn-lg" href="tel:+15125550123">Call (512) 555-0123</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Booking Modal ── -->
+  <div class="modal" id="bookingModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel">
+      <div class="modal-head">
+        <div class="modal-head-text">
+          <h2 id="modalTitle">Book Your Consultation</h2>
+          <p>Free 3D scan + smile plan included. No pressure.</p>
+        </div>
+        <button class="modal-close" type="button" aria-label="Close booking dialog">✕</button>
+      </div>
+      <div class="bp-progress" id="modalProgress" style="border-top:1px solid var(--border)"></div>
+      <div class="bp-body" id="modalContent"></div>
+      <div class="bp-footer" id="modalFooter"></div>
+    </div>
+  </div>
+
+  <!-- ── Mobile sticky CTA ── -->
+  <div class="mobile-cta" role="region" aria-label="Quick actions">
+    <a class="btn btn-sm btn-ghost" href="tel:+15125550123">📞 Call</a>
+    <button class="btn btn-sm" type="button" data-open-booking data-cta="mobile_book">Book Free Consult</button>
+    <a class="btn btn-sm btn-ghost" href="sms:+15125550123">💬 Text</a>
+  </div>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo.svg" alt="SmileAxis Orthodontics" class="footer-logo" />
+        <p class="footer-tagline">Premium Invisalign, braces, and orthodontic care across Austin, TX. Board-certified
+          specialist. 3 convenient locations.</p>
+        <div class="footer-badges">
+          <span class="foot-badge">🏅 AAO Certified</span>
+          <span class="foot-badge">✨ Invisalign Diamond</span>
+          <span class="foot-badge">⭐ 4.9 Rated</span>
+        </div>
+      </div>
+      <div>
+        <strong>Explore</strong>
+        <ul class="footer-links">
+          <li><a href="treatments.html">Treatments</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="locations.html">Locations</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <ul class="footer-links">
+          <li><a href="tel:+15125550123">(512) 555-0123</a></li>
+          <li><a href="mailto:hello@smileaxis.com">hello@smileaxis.com</a></li>
+          <li><button type="button" data-open-booking>Book consultation</button></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Hours</strong>
+        <ul class="footer-links" style="pointer-events:none">
+          <li><span>Mon–Thu: 8 AM – 6 PM</span></li>
+          <li><span>Fri: 8 AM – 3 PM</span></li>
+          <li><span>Sat: 9 AM – 1 PM</span></li>
+          <li><span>Sun: Closed</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span class="fineprint">© <span id="year"></span> SmileAxis Orthodontics · Austin, TX</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="locations.html">Find a Clinic</a>
+      </div>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
